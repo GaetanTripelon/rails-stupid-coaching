@@ -1,0 +1,13 @@
+<h1 class="m-5">Stupid Coaching</h1><br>
+
+<div class="col-4 m-5 bg-light bg-gradient border-start border-5">
+  <h5 class="ms-2 form-label pt-2"><%= @question %></h5>
+  <p class="ms-2" style="font-style:italic">- You</p>
+</div>
+<div class="col-4 m-5 bg-light bg-gradient border-start border-5">
+  <h5 class="ms-2 form-label pt-2"><%= @answer %></h5>
+  <p class="ms-2" style="font-style:italic">- Your coach</p>
+</div>
+<div class="col-4 m-5">
+  <p class="ms-2 btn btn-warning"><%= link_to "Another stupid question?", ask_path %></p>
+</div>
