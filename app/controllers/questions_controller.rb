@@ -13,6 +13,8 @@ class QuestionsController < ApplicationController
       'Great!'
     elsif question.end_with?('?')
       'Silly question, get dressed and go to work!'
+    elsif question.start_with?('W')
+      'Oui'
     else
       "I don't care, get dressed and go to work!"
     end
